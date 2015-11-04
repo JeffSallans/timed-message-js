@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timed Message JS Demo</title>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Library -->
+    <link rel="stylesheet" href="timed-message.css">
+    <script type="text/javascript" src="timed-message.js"></script>
+  </head>
+  <body>
+    <h2>Timed Message JS</h2>
+    <p>A lite JavaScript library for displaying non-blocking alert messages. The focus is on simple setup and easy to override CSS.</p>
+    <input id="message" placeholder="message" required="" />
+    <input id="duration" type="number" placeholder="duration" />
+    <button class="clickme">Create Message</button>
+    <button class="clickme">Create Message (Custom Style)</button>
+    <script type="text/javascript">
+        //JQuery document composition complete
+        $(function(){
+            TimedMessage.createMessage("This is a <b>timed</b><br/> message demo");
+            $(".clickme").click(function() {
+                var message = $("#message").val();
+                var duration = $("#duration").val();
+                
+                if (duration) {
+                    TimedMessage.createMessage(message, duration);
+                }
+                else {
+                    TimedMessage.createMessage(message);
+                }
+            });
+        });
+    </script>  
+  </body>
+</html>

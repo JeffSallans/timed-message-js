@@ -1,0 +1,30 @@
+.tm-timed-message-container {
+    /*position logic*/
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.tm-timed-message-container > span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 3px;
+    display: inline-block;
+    
+    border-radius: 5px;
+    background-color: #2C3539;
+    color: white;
+    box-shadow: 5px 5px 10px -4px rgba(0,0,0,0.75);
+    
+    /*visual logic*/
+    transition: 0.3s opacity;
+    opacity: 1;
+}
+
+.tm-timed-message-container > span.tm-hide {
+    transition: 1s opacity;
+    opacity: 0;
+}
