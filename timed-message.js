@@ -29,8 +29,15 @@
         var container = $("." + containerClass, additionalSettings.scope);
         if (!container || container.length === 0) {
 
+            var bodyDom = $('body'); 
+
+            //Check if browser finished rendering
+            if (!bodyDom || bodyDom.length === 0) {
+                throw "DOM has not finished rendering";
+            }
+
             //Add container
-            $('body').append('<div class="' + containerClass + '"></div>');
+            bodyDom.append('<div class="' + containerClass + '"></div>');
         }
 
         //Create HTML for message

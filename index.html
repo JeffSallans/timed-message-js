@@ -10,6 +10,9 @@
     <!-- Library -->
     <link rel="stylesheet" href="timed-message.css">
     <script type="text/javascript" src="timed-message.js"></script>
+
+    <!-- Page Style -->
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
     <h2>Timed Message JS</h2>
@@ -18,22 +21,6 @@
     <input id="duration" type="number" placeholder="duration" />
     <button class="clickme">Create Message</button>
     <button class="clickme">Create Message (Custom Style)</button>
-    <script type="text/javascript">
-        //JQuery document composition complete
-        $(function(){
-            TimedMessage.createMessage("This is a <b>timed</b><br/> message demo");
-            $(".clickme").click(function() {
-                var message = $("#message").val();
-                var duration = $("#duration").val();
-                
-                if (duration) {
-                    TimedMessage.createMessage(message, duration);
-                }
-                else {
-                    TimedMessage.createMessage(message);
-                }
-            });
-        });
-    </script>  
+    <script type="text/javascript" src="index.js"></script>  
   </body>
 </html>
