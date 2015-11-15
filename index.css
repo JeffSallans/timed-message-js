@@ -1,0 +1,82 @@
+html {
+	/*have HTML match the view port*/
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url(background.png);
+
+    /*White shadow for a fun effect*/
+    -webkit-box-shadow: inset 0px 0px 170px -10px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 170px -10px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 170px -10px rgba(255,255,255,1);
+}
+
+body {
+    min-height: 100%;
+    background-color: white;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 100px 100px rgba(249,165,146,0.9);
+    -moz-box-shadow: 0px 0px 100px 100px rgba(249,165,146,0.9);
+    box-shadow: 0px 0px 100px 100px rgba(249,165,146,0.9);
+}
+
+html, button, input {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #263F73;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+input {
+    display: inline-block;
+    width: 150px;
+    border-style: none;
+    border-bottom: 2px solid #263f73;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    font-size: 30px;
+}
+
+p {
+    color: #4471ce;
+    font-size: 20px;
+}
+
+button {
+    font-size: 22px;
+}
+
+/*Element Specific Styles*/
+
+#message {
+    display: block;
+    width: 80%;
+    border-style: none;
+    border-bottom: 2px solid #263f73;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#duration {
+margin-left: 20px;margin-right: 20px;}
+
+.clickme {
+    width: 150px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

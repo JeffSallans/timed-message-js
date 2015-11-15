@@ -12,15 +12,17 @@
     <script type="text/javascript" src="timed-message.js"></script>
 
     <!-- Page Style -->
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
     <h2>Timed Message JS</h2>
     <p>A lite JavaScript library for displaying non-blocking alert messages. The focus is on simple setup and easy to override CSS.</p>
     <input id="message" placeholder="message" required="" />
-    <input id="duration" type="number" placeholder="duration" />
-    <button class="clickme">Create Message</button>
-    <button class="clickme">Create Message (Custom Style)</button>
+    <div class="flex-container">
+        <input id="duration" type="number" placeholder="duration" />
+        <button class="clickme">Create Message</button>
+    </div>
     <script type="text/javascript" src="index.js"></script>  
   </body>
 </html>

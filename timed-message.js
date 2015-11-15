@@ -37,7 +37,7 @@
             }
 
             //Add container
-            bodyDom.append('<div class="' + containerClass + '"></div>');
+            bodyDom.prepend('<div class="tm-overlay"><div class="' + containerClass + '"></div></div>');
         }
 
         //Create HTML for message

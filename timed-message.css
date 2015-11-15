@@ -1,9 +1,21 @@
+.tm-overlay {
+    position: fixed;
+    display: block;
+
+    /*So the overlay doesn't take up any space*/
+    height: 0;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .tm-timed-message-container {
     /*position logic*/
     position: absolute;
     bottom: 25px;
     text-align: center;
-    width: 90%;
+    width: 100%;
 }
 
 .tm-timed-message-container > span {
