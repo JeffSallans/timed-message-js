@@ -5,6 +5,9 @@ $(function(){
         var message = $("#message").val();
         var duration = $("#duration").val();
         
+        //Use warning message if message is not provided
+        message = message || "Please enter a message";
+
         if (duration) {
             TimedMessage.createMessage(message, duration);
         }
