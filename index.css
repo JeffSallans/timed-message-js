@@ -63,10 +63,28 @@ button {
 }
 
 #duration {
-margin-left: 20px;margin-right: 20px;}
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .clickme {
     width: 150px;
+}
+
+/*Duplicate to increase selectivity*/
+.undo.undo {
+    color: rgb(249, 92, 57);
+    cursor: pointer;
+    transition: color .4s;
+}
+
+.undo.undo:hover {
+    color: rgb(249, 223, 217);
+}
+
+.undo.undo:active {
+    color: rgb(50, 50, 50);
+    transition: color .05s;
 }
 
 .flex-container {

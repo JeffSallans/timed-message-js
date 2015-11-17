@@ -1,4 +1,4 @@
-.tm-overlay {
+.tm-overlay:not(.custom) {
     position: fixed;
     display: block;
 
@@ -10,7 +10,7 @@
     right: 0;
 }
 
-.tm-timed-message-container {
+.tm-timed-message-container:not(.custom) {
     /*position logic*/
     position: absolute;
     bottom: 25px;
@@ -18,25 +18,30 @@
     width: 100%;
 }
 
-.tm-timed-message-container > span {
+.tm-timed-message-container > span:not(.custom) {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 3px;
-    display: inline-block;
     
     border-radius: 5px;
     background-color: #2C3539;
     color: white;
     box-shadow: 5px 5px 10px -4px rgba(0,0,0,0.75);
-    
+}
+
+.tm-timed-message-container > span {
+
+    display: inline-block;
+
     /*visual logic*/
     transition: 0.3s opacity;
     opacity: 1;
 }
 
 .tm-timed-message-container > span.tm-hide {
+
     transition: 1s opacity;
     opacity: 0;
 }
