@@ -71,6 +71,7 @@ button {
     width: 150px;
 }
 
+/*Make UNDO look pretty*/
 /*Duplicate to increase selectivity*/
 .undo.undo {
     color: rgb(249, 92, 57);
@@ -87,8 +88,30 @@ button {
     transition: color .05s;
 }
 
+/*Move to two lines if nessary*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/*Make links look pretty*/
+.flex-container a {
+    text-decoration: none;
+    color: rgb(249, 92, 57);
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    font-size: 29px;
+    transition: color .4s;
+}
+
+.flex-container a:hover {
+    color: #263f73;
+}
+
+.flex-container a:active {
+    color: #FFFFFF;
+    transition: color .05s;
 }

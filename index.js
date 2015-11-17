@@ -55,7 +55,7 @@ $(function(){
         });
     }, 30000);
     setTimeout(function () {
-            TimedMessage.createMessage("You can use this!");
+            TimedMessage.createMessage("You can use this! | <a class='undo' href='download/timed-message-js.zip' rel='nofollow'>DOWNLOAD</a>", 20000);
         }, 35000);
     setTimeout(function () {
         TimedMessage.createMessage("Are you still there?", 20000, {
