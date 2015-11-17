@@ -8,7 +8,7 @@ html {/*have HTML match the view port*/
 
 body {
     min-height: 100%;
-    background-color: white;
+    background-color: #FFF9C7;
     padding: 20px;
     max-width: 500px;
     min-width: 300px;
@@ -31,12 +31,11 @@ h2 {
 input {
     display: inline-block;
     width: 150px;
+    background: #FFF9C7;
     border-style: none;
     border-bottom: 2px solid #263f73;
     margin-bottom: 10px;
     padding-left: 10px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     font-size: 30px;
 }
 
