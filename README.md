@@ -36,3 +36,7 @@ TimedMessage.createMessage("This is a <b>timed</b><br/> message demo");
 | additionalSettings.fadeOutDuration | int | 1 sec | Time in milliseconds for the message to fade out.  Change if transition duration change.
 | additionalSettings.cssClass | string | null | The name of the css class to add to the timed message.  This will also remove default css.
 | additionalSettings.onDone | function | null | Function called once the message has completely faded out.
+
+## License
+
+[Apache License 2.0](http://tldrlegal.com/license/apache-license-2.0-(apache-2.0))

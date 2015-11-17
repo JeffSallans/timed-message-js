@@ -1,3 +1,11 @@
+/*
+Timed Message JS
+Copyright 2015 Jeff Sallans
+
+How to use:
+  Add custom class to a tag to remove CSS
+*/
+
 .tm-overlay:not(.custom) {
     position: fixed;
     display: block;

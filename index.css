@@ -1,8 +1,12 @@
-html {/*have HTML match the view port*/
+/*
+Timed Message JS
+Copyright 2015 Jeff Sallans
+*/
+html {
+    /*have HTML match the view port*/
 	position: fixed;
 	height: 100vh;
 	width: 100vw;
-	/* overflow: scroll; */
 	background-image: url(background.png);
 }
 

@@ -1,3 +1,7 @@
+/*
+Timed Message JS
+Copyright 2015 Jeff Sallans
+*/
 (function() {
 
     //Check dependencies

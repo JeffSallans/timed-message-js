@@ -1,3 +1,8 @@
+/*
+Timed Message JS
+Copyright 2015 Jeff Sallans
+*/
+
 //JQuery document composition complete
 $(function(){
 
