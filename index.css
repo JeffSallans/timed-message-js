@@ -12,7 +12,7 @@ html {
 
 body {
     min-height: 100%;
-    background-color: #FFF9C7;
+    background-color: #ffead6;
     padding: 20px;
     max-width: 500px;
     min-width: 300px;
@@ -35,7 +35,7 @@ h2 {
 input {
     display: inline-block;
     width: 150px;
-    background: #FFF9C7;
+    background: #ffead6;
     border-style: none;
     border-bottom: 2px solid #263f73;
     margin-bottom: 10px;
