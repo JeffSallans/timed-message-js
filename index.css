@@ -4,10 +4,9 @@ Copyright 2015 Jeff Sallans
 */
 html {
     /*have HTML match the view port*/
-	position: fixed;
-	height: 100vh;
 	width: 100vw;
 	background-image: url(background.png);
+    overflow-x: hidden;
 }
 
 body {
