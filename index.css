@@ -10,9 +10,10 @@ html {
 }
 
 body {
-    min-height: 100%;
-    background-color: #ffead6;
+    min-height: 100vh;
+    background-color: #FFF7EF;
     padding: 20px;
+    box-sizing: border-box;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
@@ -34,7 +35,7 @@ h2 {
 input {
     display: inline-block;
     width: 150px;
-    background: #ffead6;
+    background: #FFF7EF;
     border-style: none;
     border-bottom: 2px solid #263f73;
     margin-bottom: 10px;
